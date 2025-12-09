@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 19</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Reddit Client</h1>
+    </header>
+
+    <main>
+        <div id="lanesContainer"></div>
+
+        <button id="addLaneBtn" class="floating-btn">+</button>
+
+        <div id="popup" class="popup hidden">
+            <div class="popup-content">
+                <h2>proyecto 19</h2>
+                <input type="text" id="popupInput" placeholder="e.g. soccer, programming, askreddit">
+                <div id="popupError" class="error-message"></div>
+                <div id="popupSuggestions" class="suggestions"></div>
+                <div class="popup-buttons">
+                    <button id="popupAddBtn" class="primary-btn">Add Subreddit</button>
+                    <button id="popupCloseBtn" class="secondary-btn">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
